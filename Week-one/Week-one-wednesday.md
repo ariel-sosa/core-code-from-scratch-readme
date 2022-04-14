@@ -1,6 +1,8 @@
 <h2>Your date of birth in the matrix</h2>
 
 <h4>Date of birth:</h4><p>1983</p>
+<h5>Binary number:</h5>
+<p>11110111111</p>
 
 <table>
     <thead>
