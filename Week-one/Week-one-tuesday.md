@@ -9,11 +9,11 @@ Both. The code is first compiled to bytecode and then in the run-time environmen
 
 <h2>Pseudocode Currency Converter exercise</h2>
 
-<code>
+
 START <br>
 USD Amount <-- GET <br>
 BTCExchange Rate <-- GET <br>
 Result <-- USD Amount * BTCExchange Rate <br>
 PRINT Result <br>
 END <br>
-</code>
+
