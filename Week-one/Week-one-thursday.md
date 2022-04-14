@@ -21,7 +21,7 @@ if (cond) {
 } else {
   console.log('The cond variable is false');
 }
-
+```
 <h2>Bad code 2</h2>
 
 <p>Revised code:</p>
