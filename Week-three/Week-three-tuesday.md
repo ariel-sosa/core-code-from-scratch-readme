@@ -14,3 +14,19 @@ function pigIt(str){
   })
   return newArr.join(" ")
 }
+
+## Counting duplicates
+function duplicateCount(text){
+  return text.toLowerCase().split('').filter(function(val, i, arr){
+    return arr.indexOf(val) !== i && arr.lastIndexOf(val) === i;
+  }).length;
+}
+
+## Decode the Morse Code
+decodeMorse = function(morseCode){
+  return morseCode
+    .trim()
+    .split(/  | /)
+    .map( (code) => MORSE_CODE[code] || ' ')
+    .join('');
+}
