@@ -20,3 +20,12 @@ function likes(names) {
     return `${likesArray[0]}, ${likesArray[1]} and ${likesArray.length - 2} others like this`
   }
 }
+
+## Bit Counting
+
+var countBits = function (n) {
+    return n
+      .toString(2)
+      .split('')
+      .reduce((Acc, currValue) => Acc + Number(currValue), 0);
+  };
